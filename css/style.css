@@ -6,24 +6,18 @@
 	transition: border-bottom 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
-
-
 p{
 	font-family: 'Lato', sans-serif;
 }
+
 h1{
 	font-family: "Scotch-Roman";
-	
 	font-size: 42px;
     line-height: 46px;
-
-
-    
-
 }
+
 h2, h3, h4{
-	font-family: "Scotch-Roman";
-	
+	font-family: "Scotch-Roman";	
 }
 
 li > a {
@@ -31,25 +25,22 @@ li > a {
 }
 
 .nav-tab:hover{
-	
 	background-color:rgb(230,230,230);
 }
-
 
 @font-face{
 	font-family: "Scotch-Roman";
 	src: url(../fonts/scotch-roman-mt.ttf);
 }
+
 .navbar-brand{
 	font-size: 21px;
 	font-family: "Scotch-Roman";
 	margin-bottom: 20px;
-	
 }
 
 .navbar-fixed-top .navbar-header .navbar-brand{
 	text-align: left;
-
 }
 
 .transparent > .container > .navbar-header > .navbar-brand{
@@ -65,12 +56,10 @@ li > a {
     padding-bottom: 22px;
     position: relative;
     color: #393939;
-
 	padding-bottom: 20px;
-
-
 	
 }
+
 .tab-header-text h1:after {
     background: #707070;
     bottom: 0;
@@ -80,23 +69,14 @@ li > a {
     margin-left: -20px;
     position: absolute;
     width: 41px;
-    margin-bottom: 0px;
-
-   
+    margin-bottom: 0px;   
 }
 
 .sub-header{
 	padding-top: 50px;
-
-	
-	
 	font-family: "Scotch-Roman";
-	
-	
 	text-align: center;
 	margin-bottom: 5px;
-	
-	
 }
 
 .sub-header h2:before,
@@ -113,12 +93,14 @@ li > a {
  vertical-align: middle;
  width: 6%;
 }
+
 .sub-header h2:before,
 .sub-header h3:before,
 .sub-header h4:before  {
  right: 0.5em;
  margin-left: -50%;
 }
+
 .sub-header h2:after,
 .sub-header h3:after, 
 .sub-header h3:after{
@@ -126,21 +108,17 @@ li > a {
  margin-right: -50%;
 }
 
-
-
 .tab-headers
 {
-	
-	
-	
 	text-align: center;
-	
 }
+
 .underline{
 	border-top: solid 3px #707070;
 	width: 20%;
 	margin-left: 40%;
 }
+
 .underline-small{
 	border-bottom: solid 2px #707070;
 	width: 6%;
@@ -148,31 +126,20 @@ li > a {
 	margin-bottom: 30px;
 }
 
-
 .about-video-container{
 	margin-top: 30px;
-	
 	padding-bottom: 30%;
-
-	 
-	
-
 }
-
 
 .video-holder {
 	height: 100%;
 	width: 100%;
-	
 	background-color: red;
 }
+
 iframe{
-	
 	padding: 20px 15px;
-	
-
 }
-
 
 #mam-portrait{
 	box-shadow: 10px 10px 5px grey;
@@ -183,7 +150,6 @@ iframe{
 #intro-caption-header{
 	visibility: hidden;
 	margin-bottom: 50px;
-
 }
 
 
@@ -219,6 +185,7 @@ iframe{
 	font-family: 'Lato', sans-serif;
 	font-size: 17px;
 }
+
 .top-nav-collapse .navbar-right > .nav > .nav-tab > a:hover{
 	color: #9AA1BD;
 }
@@ -229,22 +196,16 @@ iframe{
 
 .top-nav-collapse .navbar-right > .nav > .active > a, .top-nav-collapse .navbar-right > .nav > .active > a:hover,
  .navbar-fixed-top .navbar-right > .nav > .active > a:focus {
-  
   background-color: rgb(248,248,248);
   border-bottom: solid 4px #9AA1BD;
-  
 }
 
 body > .transparent > div > .navbar-right >  .nav > li > a {
-  
   color: white;
-
   border-bottom: none;
-  
 }
 
 body > .transparent > div > .navbar-right >  .nav > li > a {
-
 	-webkit-transition: border-bottom 0.5s ease-in-out;
 	-moz-transition: border-bottom 0.5s ease-in-out;
 	-o-transition: border-bottom 0.5s ease-in-out;
@@ -262,8 +223,6 @@ body > .transparent > div > .navbar-right >  .nav > li > a {
  background-image: -ms-linear-gradient(top, #682133, #3A121C);
  background-image: -o-linear-gradient(top, #682133, #3A121C);
  background-image: linear-gradient(to bottom, #682133, #3A121C);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#682133, endColorstr=#3A121C);
-
-
 }
 
 
@@ -274,11 +233,7 @@ body > .transparent > div > .navbar-right >  .nav > li > a {
 
 .top-nav-collapse .navbar-right > .nav > .active > a{
 	color: #9AA1BD;
-
 }
-
-
-
 
 #cv-btn{
 	margin-top: 75px;
@@ -287,10 +242,6 @@ body > .transparent > div > .navbar-right >  .nav > li > a {
 	background-color: #9AA1BD;
 	border: none;
 	box-shadow: 5px 5px 2px grey;
-	
-	
-
-	
 }
 
 #cv-btn:hover{
@@ -300,9 +251,7 @@ body > .transparent > div > .navbar-right >  .nav > li > a {
 .introduction{
 	margin-bottom: 100px;
 	color: white;
-	
 	padding-top: 100px;
-
 }
 
 .btn-primary {
@@ -326,15 +275,11 @@ body > .transparent > div > .navbar-right >  .nav > li > a {
 	margin-top: 40px;
 	padding-right: 50px;
 	visibility: hidden;
-
-
-	
 }
 
 
 #divider{
 	border-right: #707070 solid 2px;
-	
 	height: 0px;
 	margin-top: 30px;
 	width: 2px;
@@ -343,7 +288,6 @@ body > .transparent > div > .navbar-right >  .nav > li > a {
 	-o-transition: border-left 0.5s ease, height 0.5s ease;
 	-ms-transition: border-left 0.5s ease, height 0.5s ease;
 	transition: border-left 0.5s ease, height 0.5s ease;
-
 }
 #about-row{
 	margin-top: 20px;
@@ -351,36 +295,34 @@ body > .transparent > div > .navbar-right >  .nav > li > a {
 
 #map{
 	height: 400px;
-    
-    
     position: relative;
 }
+
 #map-row{
 	position: relative;
 }
 
 .map-label{
-	
 	font-size: 25px;
 	color: #882b42;
-	/*text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;*/
-
 }
 
 .marker-location h4:before,
 .marker-location h4:after {
-	 background-color: #707070;
- content: "";
- display: inline-block;
- height: 1px;
- position: relative;
- vertical-align: middle;
- width: 6%;
+	background-color: #707070;
+	 content: "";
+	 display: inline-block;
+	 height: 1px;
+	 position: relative;
+	 vertical-align: middle;
+	 width: 6%;
 }
+
 .marker-location h4:before{
 	right: 0.5em;
  margin-left: -50%;
 }
+
 .marker-location h4:after{
 	 left: 0.5em;
  margin-right: -50%;
@@ -388,17 +330,10 @@ body > .transparent > div > .navbar-right >  .nav > li > a {
 
 .map-label-container{
 	margin-top: 50px;
-	
-	
-
-
-	
 }
 
 #map-markers{
 	margin: auto;
-	
-	
 	padding-bottom: 15px;
 }
 
@@ -406,19 +341,15 @@ body > .transparent > div > .navbar-right >  .nav > li > a {
 	width: 88%;
 	font-family: 'Lato', sans-serif;
 	font-size: 1.2em;
-
 }
 
 .map-label{
-	text-align: center;
-	
+	text-align: center;	
 }
 
 .about-section .container .row .map-label-container .map-label{
-	
 	padding-left: 0px;
 	padding-right: 0px;
-	
 }
 
 #map-zoom-info{
@@ -426,7 +357,6 @@ body > .transparent > div > .navbar-right >  .nav > li > a {
 }
 
 hr{
-	
   border: 0;
   clear:both;
   display:block;
@@ -434,7 +364,6 @@ hr{
   background-color: #707070;
   height: 1px;
   margin-top: 30px;
-
 }
 
 .transparent{
@@ -443,7 +372,6 @@ hr{
 }
 
 .circle{
-
 	width:30px;
 	height:30px;
 	border-radius:50%;
@@ -452,13 +380,11 @@ hr{
 	line-height:30px;
 	text-align:center;
 	background:red;
-	
 }
 
  .nav-tabs > li > a{
 	font-size: 90%;
 	font-family: 'Lato', sans-serif;
-
 }
 
 .procedures-section h3, .procedures-section h4{
@@ -485,13 +411,8 @@ hr{
 
 }
 .marker-location{
-	
-	
-	
 	display: block;
 	margin: auto;
-	
-	
 }
 
 
